@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/ic_contact1"
+        app:cnb_backgroundColor="#ffffff"
+        app:cnb_iconColor="@color/colorPrimary"
+        app:cnb_textColor="@color/colorPrimary"
+        android:title="@string/contact"
+        />
+    <item
+        android:id="@+id/cases"
+        android:icon="@drawable/ic_cases"
+        android:title="@string/cases"
+        app:cnb_backgroundColor="#ffffff"
+        app:cnb_iconColor="@color/colorPrimary"
+        app:cnb_textColor="@color/colorPrimary" />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        app:cnb_backgroundColor="#ffffff"
+        app:cnb_iconColor="@color/colorPrimary"
+        app:cnb_textColor="@color/colorPrimary"
+        android:title="@string/search"
+        />
+
+
+
+</menu>

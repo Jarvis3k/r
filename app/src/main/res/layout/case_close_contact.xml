@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:elevation="5dp"
+    android:background="@drawable/popup"
+    tools:context=".caseGroupChat">
+
+    <TextView
+        android:id="@+id/are_you"
+        style="Helvetica Neue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="20sp"
+        android:text="Are you sure to close case"
+        android:textColor="#404040"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="Helvetica Neue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:scrollbarSize="20sp"
+        android:text="1234 - 5678"
+        android:textColor="#487CF0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <TextView
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="10dp"
+        android:text="Close"
+        android:textColor="#487CF0"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="276dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="17dp"
+        android:layout_toStartOf="@+id/close"
+        android:text="Cancel"
+        android:textColor="#487CF0"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+</RelativeLayout>

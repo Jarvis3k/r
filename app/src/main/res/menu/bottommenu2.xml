@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/myapps_icon"
+        android:icon="@drawable/ic_appchat"
+        android:title="" />
+    <item
+        android:id="@+id/appupdates_icon"
+        android:icon="@drawable/download"
+        android:title="" />
+    <item
+        android:id="@+id/apprecommendation_icon"
+        android:icon="@drawable/ic_apprecommendation_icon"
+        android:title=""
+        />
+    <item
+        android:id="@+id/appsearch_icon"
+        android:icon="@drawable/ic_search"
+        android:title=""
+        />
+</menu>

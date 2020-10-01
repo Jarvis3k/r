@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:elevation="5dp"
+    android:background="@drawable/popup"
+    tools:context=".caseGroupChat">
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="100dp"
+        android:gravity="center"
+        android:text="Cancel"
+        android:textColor="#487CF0"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <TextView
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:text="Delete"
+        android:textColor="#487CF0"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/areyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="20sp"
+        android:text="Are you sure to delete case"
+        android:textColor="#404040"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <TextView
+        android:id="@+id/name"
+        style="Helvetica Neue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:scrollbarSize="20sp"
+        android:text="1234 - 5678"
+        android:textColor="#487CF0"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:background="#FFFFFF"
+        android:elevation="5dp"
+        android:ems="10"
+        android:textSize="12sp"
+        android:hint="Please re-enter the case number to delete"
+        android:inputType="textPersonName"
+        android:autofillHints="true" />
+
+</RelativeLayout>
